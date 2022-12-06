@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(255, 255, 255);
+    padding: 16px 0;
+    border-bottom: 2px solid rgba(202, 202, 202, 0.301);
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+
+}
+
+header li a {
+    color: rgb(94, 94, 94); 
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    background-color: rgba(165, 165, 165, 0.233);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 32px;
+    color: rgb(56, 56, 56);
+}
+
+.articles article header {
+    color: rgba(48, 48, 48, 0.5);
+    
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: rgb(24, 24, 100);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+ .articles article p,
+ .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+#sports {
+    background-color: rgba(38, 102, 38, 0.185);   
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#sports .articles article a {
+    background-color: rgba(47, 126, 47, 0.774);
+}
+
+#economy {
+    background-color: rgba(224, 224, 3, 0.267);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#economy .articles article a {
+    background-color: rgba(233, 154, 6, 0.87);
+}
+
+#technology {
+    background-color: rgba(10, 10, 233, 0.205);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#technology .articles article a {
+    background-color: rgba(25, 38, 155, 0.89);
+}
+
+#entertainment {
+    background-color: rgba(204, 25, 25, 0.205);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#entertainment .articles article a {
+    background-color: rgba(155, 25, 25, 0.89);
+}
+
